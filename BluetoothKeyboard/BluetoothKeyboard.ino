@@ -1,3 +1,15 @@
+/**********************************************
+//                      TO DO:
+//
+//  OS X setup - configure the keyboard via a command
+//  implement AT commands - allow user to change settings
+//      -- such as device name & password
+//      -- turn off authentication
+//      -- show settings
+//      -- configure different software modes
+//          -- powerpoint? libreoffice? keynote? 
+************************************************/
+
 //this loop runs once
 void setup() {
   /***************************************
