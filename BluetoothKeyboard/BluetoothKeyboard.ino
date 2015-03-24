@@ -12,7 +12,7 @@
 
 //this loop runs once
 void setup() {
-  /***************************************
+  /***************************************  
   // On opening the serial port:
   // THIS NEEDS TO BE SERIAL1!! 
   // Arduino Micro has another serial 
@@ -28,9 +28,14 @@ void setup() {
 
   // initialize control over the keyboard:
   Keyboard.begin();
+  delay(5000);
+  Keyboard.write('\n');
+  Keyboard.write('\\');
+  Keyboard.write('/');
+  Keyboard.write('\n');
 }
 
-//this loop is repeated indefinitely
+//this loop is repeated indefintely
 void loop() {
   // check for incoming serial data:
   if (Serial1.available() > 0) {
